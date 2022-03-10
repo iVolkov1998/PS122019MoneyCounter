@@ -10,7 +10,7 @@ namespace Rubic.Kupchenko
         public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
-        public int PhoneNumber { get; set; }
+        public long PhoneNumber { get; set; }
         public string County { get; set; }
         public string Login { get; set; }
         public int Password { get; set; }
