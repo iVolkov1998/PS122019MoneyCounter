@@ -1290,11 +1290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj",
+      "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS122019MoneyCounter\\Rubic\\Rubic.csproj",
       "projectName": "Rubic",
-      "projectPath": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj",
+      "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019MoneyCounter\\Rubic\\Rubic.csproj",
       "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\obj\\",
+      "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019MoneyCounter\\Rubic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

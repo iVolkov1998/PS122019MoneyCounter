@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1b8j9F7moq28rq7JGXB+cVSzgE/vzI5yDz7CZSws/6X/AuUVu6hTqjLxRvxkGXzoy3TdmXPWG7U6JIwICzddzg==",
+  "dgSpecHash": "IZuAiZl5y+QfRpJ/4KHOZ1ZtPlRpwBop8meHTD2nRMxN+Z7rb5cL9ELq8Q7KqmPUqcVaPkycCe7QqzLgh9hVlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj",
+  "projectFilePath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019MoneyCounter\\Rubic\\Rubic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\titov\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\titov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
