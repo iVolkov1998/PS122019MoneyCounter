@@ -9,15 +9,19 @@ namespace Rubic.Lykov
     {
         public int ID { get; set; }
 
+        public string Login { get; set; }
+
+        public string Password { get; set; }
+
         public string Name { get; set; }
 
         public string Surname { get; set; }
 
         public string Patronymic { get; set; }
 
-        public int age { get; set; }
+        public int Age { get; set; }
 
-        public bool isBoy { get;set }
+        public bool IsBoy { get; set; }
 
     }
 }
