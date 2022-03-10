@@ -7,14 +7,12 @@ namespace Rubic.Models
 {
     public class User
     {
-        public int Id { get; set; }
-        public int PhoneNumberPrefix { get; set; }
-        public long PhoneNumber { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
-        public string Password { get; set; }
-        public List<Money> Moneys { get; set; }
-
-        public Backpack Backpack { get; set; }
+        public bool Gender { get; set; }
+        public int Age { get; set; }
+        public string Rassa { get; set; }
+        public string Species { get; set; }
+        public string Mind { get; set; }
     }
 }
