@@ -18,6 +18,8 @@ namespace Rubic.Astashin
         public bool IsBoy { get; set; }
         public string Status { get; set; }
         public DateTime? DateTime { get; set; }
+        public string Patronymic { get; set; }
+        public string Mail { get; set; }
 
     }
 }
