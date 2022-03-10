@@ -12,7 +12,7 @@ namespace Rubic.Anisimov
         public string SurName { get; set; }
         public string Patronymic { get; set; }
         public int PhoneNumberPrefix { get; set; }
-        public int PhoneNumber { get; set; }
+        public long PhoneNumber { get; set; }
         public bool IsBoy { get; set; }
         public DateTime BirthdayDate { get; set; }
         public DateTime RegestrationDate { get; set; }
