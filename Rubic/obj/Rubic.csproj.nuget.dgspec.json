@@ -1,41 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\titov\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj": {}
+    "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\titov\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj": {
+    "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj",
+        "projectUniqueName": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj",
         "projectName": "Rubic",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj",
+        "projectPath": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\Rubic.csproj",
         "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\MoneyCounter\\Rubic\\obj\\",
-=======
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj",
-        "projectName": "Rubic",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\MoneyCounter\\Rubic\\Rubic.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\MoneyCounter\\Rubic\\obj\\",
->>>>>>> e24f173ffd2f0b4669c2ab175edc97229801e822
+        "outputPath": "C:\\Users\\titov\\source\\repos\\Rubic\\Rubic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> e24f173ffd2f0b4669c2ab175edc97229801e822
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,7 +44,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[11.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -70,21 +52,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.21, )"
+              "version": "[3.1.22, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.21, )"
+              "version": "[3.1.22, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.21, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[3.1.22, )"
             }
           },
           "imports": [

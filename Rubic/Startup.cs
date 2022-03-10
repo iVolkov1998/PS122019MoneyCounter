@@ -47,11 +47,7 @@ namespace Rubic
 
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
-<<<<<<< HEAD
                 ForwardedHeaders = ForwardedHeaders.XForwardedFor | 
-=======
-                ForwardedHeaders = ForwardedHeaders.XForwardedFor |
->>>>>>> e24f173ffd2f0b4669c2ab175edc97229801e822
                 ForwardedHeaders.XForwardedProto
             });
 

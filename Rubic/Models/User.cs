@@ -14,5 +14,7 @@ namespace Rubic.Models
         public string Surname { get; set; }
         public string Password { get; set; }
         public List<Money> Moneys { get; set; }
+
+        public Backpack Backpack { get; set; }
     }
 }

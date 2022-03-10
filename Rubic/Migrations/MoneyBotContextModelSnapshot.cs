@@ -14,7 +14,24 @@ namespace Rubic.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.21");
+                .HasAnnotation("ProductVersion", "3.1.22");
+
+            modelBuilder.Entity("Rubic.Models.Backpack", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Backpacks");
+                });
 
             modelBuilder.Entity("Rubic.Models.Money", b =>
                 {
@@ -39,6 +56,34 @@ namespace Rubic.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Moneys");
+                });
+
+            modelBuilder.Entity("Rubic.Models.Stock", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("BackpackId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Owner")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ShortName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BackpackId");
+
+                    b.ToTable("Stocks");
                 });
 
             modelBuilder.Entity("Rubic.Models.User", b =>
@@ -67,11 +112,29 @@ namespace Rubic.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Rubic.Models.Backpack", b =>
+                {
+                    b.HasOne("Rubic.Models.User", "User")
+                        .WithOne("Backpack")
+                        .HasForeignKey("Rubic.Models.Backpack", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Rubic.Models.Money", b =>
                 {
                     b.HasOne("Rubic.Models.User", "User")
                         .WithMany("Moneys")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Rubic.Models.Stock", b =>
+                {
+                    b.HasOne("Rubic.Models.Backpack", "Backpack")
+                        .WithMany("Stocks")
+                        .HasForeignKey("BackpackId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
