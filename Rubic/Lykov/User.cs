@@ -7,21 +7,22 @@ namespace Rubic.Lykov
 {
     public class User
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
-        public string Login { get; set; }
-
-        public string Password { get; set; }
-
-        public string Name { get; set; }
-
-        public string Surname { get; set; }
-
-        public string Patronymic { get; set; }
-
-        public int Age { get; set; }
+        public string Nickname { get; set; }
 
         public bool IsBoy { get; set; }
 
+        public DateTimeOffset Birthday  { get; set; }
+        public int PhoneNumberPrefix { get; set; }
+        public int PhoneNuber { get; set; }
+
+        public string Email { get; set; }
+
+        public string AvatarUrl { get; set; }
+
+        public string Token { get; set; }
+
+        public Profile Profile { get; set; }
     }
 }
