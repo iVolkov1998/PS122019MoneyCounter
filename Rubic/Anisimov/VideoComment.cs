@@ -11,6 +11,6 @@ namespace Rubic.Anisimov
         public int VideoId { get; set; }
         public string Text { get; set; }
         public DateTime DateTimeStamp { get; set; }
-        public Video video { get; set; }
+        public Video Video { get; set; }
     }
 }

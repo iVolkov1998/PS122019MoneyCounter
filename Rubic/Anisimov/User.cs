@@ -16,9 +16,6 @@ namespace Rubic.Anisimov
         public string Email { get; set; }
         public string AvatarUrl { get; set; }
         public string Token { get; set; }
-        public Profile profile { get; set; }
-
-        public List<SavedVideo> SavedVideos { get; set; }
-        public List<VideoComment> Videocomments { get; set; }
+        public Profile Profile { get; set; }
     }
 }

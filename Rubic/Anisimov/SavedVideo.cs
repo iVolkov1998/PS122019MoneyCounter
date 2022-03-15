@@ -9,7 +9,7 @@ namespace Rubic.Anisimov
     {
         public int ProfileId { get; set; }
         public int VideoId { get; set; }
-        public Profile profile { get; set; }
-        public Video video { get; set; }
+        public Profile Profile { get; set; }
+        public Video Video { get; set; }
     }
 }
