@@ -8,19 +8,14 @@ namespace Rubic.Kedrov
     public class User
     {
         public int Id { get; set; }
-        public string Login { get; set; }
-        public string Password { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Patronymic { get; set; }
-        public DateTime RegTime { get; set; }
-        public DateTime BirthTime { get; set; }
+        public string Nickname { get; set; }
         public bool IsBoy { get; set; }
-        public string Mail  { get; set; }
-        public string Status { get; set; }
-        public string Publications { get; set; }
-        public int NumberPrefix { get; set; }
+        public DateTimeOffset Birthday { get; set; }
+        public int PhoneNumberPrefix { get; set; }
         public long PhoneNumber { get; set; }
-
+        public string Email { get; set; }
+        public string AvatarUrl { get; set; }
+        public string Token { get; set; }
+        public Profile Profile { get; set; }
     }
 }
