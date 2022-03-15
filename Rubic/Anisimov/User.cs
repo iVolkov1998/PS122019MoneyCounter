@@ -8,18 +8,17 @@ namespace Rubic.Anisimov
     public class User
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string SurName { get; set; }
-        public string Patronymic { get; set; }
+        public string Nickname { get; set; }
+        public bool Isboy { get; set; }
+        public DateTime Birthday { get; set; }
         public int PhoneNumberPrefix { get; set; }
         public long PhoneNumber { get; set; }
-        public bool IsBoy { get; set; }
-        public DateTime BirthdayDate { get; set; }
-        public DateTime RegestrationDate { get; set; }
-        public int Adress { get; set; }
-        public int YearsOld { get; set; }
-        public string Login { get; set; }
-        public string Password { get; set; }
+        public string Email { get; set; }
+        public string AvatarUrl { get; set; }
+        public string Token { get; set; }
+        public Profile profile { get; set; }
 
+        public List<SavedVideo> SavedVideos { get; set; }
+        public List<VideoComment> Videocomments { get; set; }
     }
 }
