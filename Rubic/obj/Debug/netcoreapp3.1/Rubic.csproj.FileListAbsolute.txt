@@ -63,3 +63,10 @@ C:\Users\titov\source\repos\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.dll
 C:\Users\titov\source\repos\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.pdb
 C:\Users\titov\source\repos\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.genruntimeconfig.cache
 C:\Users\titov\source\repos\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.csprojAssemblyReference.cache
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.csprojAssemblyReference.cache
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.AssemblyInfo.cs
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.dll
+C:\Users\StudentDev\Documents\GitHub\PS122019MoneyCounter\Rubic\obj\Debug\netcoreapp3.1\Rubic.pdb
