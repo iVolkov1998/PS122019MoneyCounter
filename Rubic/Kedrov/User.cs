@@ -17,5 +17,7 @@ namespace Rubic.Kedrov
         public string AvatarUrl { get; set; }
         public string Token { get; set; }
         public Profile Profile { get; set; }
+        public List<Friends> FirstFriends { get; set; }
+        public List<Friends> SecondFriends { get; set; }
     }
 }
