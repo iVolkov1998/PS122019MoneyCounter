@@ -7,12 +7,14 @@ namespace Rubic.Diana
 {
     public class User
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public bool Gender { get; set; }
-        public int Age { get; set; }
-        public string Rassa { get; set; }
-        public string Species { get; set; }
-        public string Mind { get; set; }
+        public int Id { get; set; }
+        public string Nickname { get; set; }
+        public Boolean IsBoy { get; set; }
+        public DateTime Birthday { get; set; }
+        public int PhoneNumberPrefix { get; set; }
+        public int PhoneNumber { get; set; }
+        public string Email { get; set; }
+        public string AvatarUrl { get; set; }
+        public string Token { get; set; }
     }
 }
