@@ -14,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Rubic.AutoMapper;
 using Rubic.DbContext;
+//using Rubic.DbContext;
 
 namespace Rubic
 {
@@ -30,9 +31,9 @@ namespace Rubic
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<MoneyBotContext>(p =>
+            services.AddDbContext<IContext, Context>(p =>
                 p.UseSqlite("Data Source=usersdata.db; Foreign Keys=True"));
-            services.AddAutoMapper(typeof(MicroserviceProfile));
+            //services.AddAutoMapper(typeof(MicroserviceProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,10 +56,10 @@ namespace Rubic
 
             using var scope = app.ApplicationServices.CreateScope();
 
-            var mapper = scope.ServiceProvider.GetRequiredService<IMapper>();
-            mapper.ConfigurationProvider.AssertConfigurationIsValid();
+           // var mapper = scope.ServiceProvider.GetRequiredService<>();
+           // mapper.ConfigurationProvider.AssertConfigurationIsValid();
 
-            var dbContext = scope.ServiceProvider.GetRequiredService<MoneyBotContext>();
+            var dbContext = scope.ServiceProvider.GetRequiredService<Context>();
             dbContext.Database.Migrate();
 
             app.UseEndpoints(endpoints =>
