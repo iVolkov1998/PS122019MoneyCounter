@@ -30,8 +30,8 @@ namespace Rubic
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddDbContext<MoneyBotContext>(p =>
-                //p.UseSqlite("Data Source=usersdata.db; Foreign Keys=True"));
+            services.AddDbContext<IContext, Context>(p =>
+                p.UseSqlite("Data Source=usersdata.db; Foreign Keys=True"));
             //services.AddAutoMapper(typeof(MicroserviceProfile));
         }
 
