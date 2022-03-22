@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Rubic.Kedrov
+namespace Rubic.BusinessLogic.Blo
 {
-    public class User
+    public class UserUpdateBlo
     {
-        public int Id { get; set; }
         public string Nickname { get; set; }
         public string Password { get; set; }
         public bool IsBoy { get; set; }
@@ -16,9 +15,7 @@ namespace Rubic.Kedrov
         public long PhoneNumber { get; set; }
         public string Email { get; set; }
         public string AvatarUrl { get; set; }
-        public string Token { get; set; }
-        public Profile Profile { get; set; }
-        public List<Friends> FirstFriends { get; set; }
-        public List<Friends> SecondFriends { get; set; }
+ 
+
     }
 }
