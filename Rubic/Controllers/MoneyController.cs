@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Rubic.Controllers
 {
+    ||rrrr||
     [Route("api/[controller]")]
     [ApiController]
     public class MoneyController : ControllerBase
